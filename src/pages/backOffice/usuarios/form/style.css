@@ -1,0 +1,20 @@
+.hidden-control{
+    display: none;
+}
+
+.avatar-container{
+    height: 215px;
+}
+
+.image-content{
+    height: 90%;
+}
+
+.image{
+    cursor: pointer;
+    height: 90%;
+}
+
+.rounded-circle{
+    position: relative !important;
+}

@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34;*/
+  background-color: #222e3c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-section {
+  /*display: flex;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 60px);*/
+
+  height: calc(100% - 60px);
+  right: 0;
+  width: 85%;
+  position: absolute;
+}
+
+.navbar-brand{
+  height: 50px;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  display: block;
+}
+
+.menu-section {
+  width: 200px;
+  /*background-color: #060854 !important;
+  box-shadow: 5px 0px #6f8bef6b;*/
+  background-color: #222e3c !important;
+  
+  display: inline-flex;
+  position: fixed;
+  height: 100%;
+  z-index: 10000;
+}
+
+.main-width{
+  width: calc(100% - 50px);
+}
+
+.main-normal{
+  width: calc(100% - 199px);
+}
+/*
+.menu-section,
+.content-section {
+  display: inline-flex;
+}
+*/
+.content-section {
+  width: inherit;
+  /*padding: 2% 5%;*/
+  overflow: auto;
+  
+  padding: 5% 2% 0px;
+  width: 100%;
+}
+
+.content-section > div {
+  width: inherit;
+}
+
+.btn-primary {
+  background-color: #089ead !important;
+  border-color: #089ead !important;
+}
+
+.field-error {
+  color: red !important;
+}
+
+
+.alert button,
+.modal-header button{
+  border-style: none;
+  background: #f0f8ff00;
+  font-weight: bold;
+  color: #787b7d;
+  font-size: larger;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+input[type='text'],
+input[type='number']{
+  margin: 3px;
+}

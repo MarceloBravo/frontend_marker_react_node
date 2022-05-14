@@ -1,0 +1,74 @@
+.message-container{
+    margin: 10% 0% !important;
+}
+
+.button-containner > button{
+    width: auto;
+    position: relative;
+    left: 45%;
+}
+
+.class-imagen{
+    height: auto; 
+    width: 75px;
+    margin: 0px 10%;
+}
+
+.col-Foto{
+    width: 100px !important;
+}
+
+.col-Nombre{
+    width: auto !important;
+}
+
+.col-Precio{
+    width: 15% !important;
+}
+
+.col-cantidad{
+    width: 100px !important;
+}
+
+.col-cantidad > input{
+    background: white !important;
+}
+
+.col-precio_venta{
+    text-align: right;
+    min-width: 150px;
+}
+
+.col-action{
+    width: 65px;
+}
+
+td.col-action{
+    text-align: center;
+}
+
+.signal{
+    width: 10px;
+    flex: inherit;
+}
+
+.separator{
+    height: 10px;
+}
+
+.col-sub-totales{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 600px) {
+    .custom-class-table{
+        width: 150% !important;
+    }
+
+    .col-precio,
+    .col-precio_venta{
+        min-width: 90px;
+        width: 95px;
+    }
+}

@@ -1,0 +1,38 @@
+.carousel-item{
+    width: auto !important;
+}
+
+.carousel-caption{
+    right: 0px !important;
+    bottom: -0rem !important;
+    left: 0px !important;
+    background: #0a0a0a69;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 15%;
+}
+
+.carousel-fade{
+    height: auto;
+}
+
+
+.carousel-inner{
+    overflow: scroll;
+    height: 395px;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-fade{
+        height: 225px;
+    }
+
+    
+    .carousel-inner{
+        overflow: scroll;
+        height: 225px;
+    }
+}

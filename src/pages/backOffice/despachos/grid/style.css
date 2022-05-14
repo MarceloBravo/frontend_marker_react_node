@@ -1,0 +1,20 @@
+.home-page-admin .custom-class-table{
+    width: 1700px !important;
+}
+
+.home-page-admin .col-Dirección{
+    width: auto !important;
+}
+
+.home-page-admin table .col-total{
+    text-align: right;
+}
+
+.home-page-admin .col-Pedidos, 
+.home-page-admin .col-productos{
+    width: 70px !important;
+}
+
+.home-page-admin table .col-productos{
+    text-align: right;
+}

@@ -1,0 +1,73 @@
+header {
+  box-shadow: 0px 5px #6f8bef6b;
+  width: 85.5%;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+
+.widthHeader{
+  width: calc(100% - 50px);
+}
+
+.normalHeader{
+  width: calc(100% - 200px);
+}
+
+
+.icon-menu{
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+.user-session-info{
+  display: flex;
+  right: 0px;
+  position: absolute;
+}
+
+.navbar {
+  background-color: #ffffff  !important;
+}
+
+.admin-navbar a{
+  color: black !important;
+}
+
+.perfil-menu{
+  background-color: #222e3c !important;
+  border-color: #222e3c !important;
+}
+
+.avatar{
+  cursor: pointer;
+  height: 39px;
+  position: relative;
+}
+
+#dropdown-basic {
+  box-shadow: none !important;
+}
+
+.user-name {
+  color: white;
+}
+
+.form-inline{
+  display: contents !important;
+}
+
+.topbar{
+  border-bottom: 0;
+  box-shadow: 0 0 2rem 0 rgb(33 37 41 / 10%);
+}
+
+.topbar .navLink{
+  color: black !important;
+}
+
+.perfil-menu{
+  color: black !important;
+  background-color: white !important;
+  border-color: white !important;
+}

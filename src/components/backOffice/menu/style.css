@@ -1,0 +1,73 @@
+.flex-column {
+  text-align: initial;
+  background-color: #343a40;
+}
+
+.flex-column a {
+  /*color: #8e9eaa;*/
+  color: rgba(233,236,239,.5);;
+}
+
+.flex-column a:hover {
+  color: #bdc8d1;
+}
+/*
+.flex-column {
+  background-color: #060854 !important;
+}
+*/
+.sub-menu {
+  /*background-color: #060854 !important;*/
+  background-color: #222e3c !important;
+  border: none !important;
+}
+
+.card-body .nav {
+  display: block;
+}
+
+.card-header {
+  border: none !important;
+  margin: 0px !important;
+}
+
+.card-body {
+  padding: 0px 0px 0px 1.25rem !important;
+}
+
+.card-header button {
+  padding-left: 0px !important;
+}
+
+.card-header button:hover {
+  text-decoration: none !important;
+  color: rgb(176, 187, 250) !important;
+}
+
+.card-header button:focus,
+a.active {
+  text-decoration: none;
+  color: white !important;
+}
+
+.card-header button:focus {
+  box-shadow: none !important;
+}
+
+.pather-menu {
+  /*color: #8e9eaa !important;*/
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.pather-menu:focus{
+  text-decoration: underline;
+}
+
+.hideMenu{
+  left: -150px;
+}
+
+.visibleMenu{
+  left: 0px;
+}

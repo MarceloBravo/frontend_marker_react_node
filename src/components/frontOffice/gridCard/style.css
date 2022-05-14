@@ -1,0 +1,48 @@
+.select-label{
+    text-align: right;
+}
+
+.show-product{
+    cursor: pointer;
+}
+
+.col-card{
+    padding-top: 10px;
+}
+
+.card-grid{
+    height: 100%;
+    width: 11rem !important;
+}
+
+.card-image{
+    width: auto;
+    height: fit-content;
+}
+
+.col-card{
+    height: 310px;
+}
+
+/*
+Alinear texto verticalmente con css 
+https://www.freecodecamp.org/news/css-vertical-align-how-to-center-a-div-text-or-an-image-example-code/
+*/
+.card-text{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: .92em;
+}
+
+@media screen and (max-width: 600px) {
+    .top-grid-form + .container{
+        padding: 0px;
+    }
+
+    .top-grid-form + .container .row>*{
+        width: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

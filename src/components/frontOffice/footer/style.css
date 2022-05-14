@@ -1,0 +1,44 @@
+.footer-container{
+    margin-top: 5%;
+}
+
+.footer-component,
+.footer-container{
+    background-color: #343a40!important;
+    color: rgba(255,255,255,.75);
+    padding-top: 4%;
+}
+
+.nombre-tienda-footer{
+    font-size: x-large;
+    font-style: italic;
+}
+
+.footer-container li{
+    list-style: none;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.footer-component ul{
+    margin: 0px;
+}
+
+.footer-credits{
+    background: #343a40;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-component  ul{
+        padding: 0px;
+    }
+
+    .footer-component li{
+        padding-left: 20%;
+    }
+}
